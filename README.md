@@ -17,6 +17,6 @@ This repository was generated from the course template. Each folder below holds 
 
 ## Getting started
 
-1. Copy `.env.example` to `.env` and fill in your `OPENAI_API_KEY`.
+1. Copy `.env.example` to `.env` and fill in `LLM_BASE_URL`, `LLM_API_KEY`, and `LLM_MODEL` for the provider you chose in the setup page.
 2. Never commit `.env` — it is already listed in `.gitignore`.
 3. Open a pull request for each project and complete the checklist in the PR template before requesting review.
