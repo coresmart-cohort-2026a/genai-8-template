@@ -1,6 +1,30 @@
+# secrets
 .env
+.env.*
+!.env.example
+
+# python
 .venv/
+venv/
 __pycache__/
-.DS_Store
 *.pyc
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# local stores and run output
+qdrant_local/
+runs/
+results/*.json
+!results/scorecard.md
+*.sqlite
+*.db
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# notebooks: keep the notebook, drop the checkpoints
 .ipynb_checkpoints/
